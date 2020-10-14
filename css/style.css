@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+  background-image: url('../img/default-pattern.png');
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 300px;
+  width: 100%;
+  background-image: url('../img/default-header.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 10px solid white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  height: 60%;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #504741;
+}
+
+ul#menu {
+  height: 100%;
+  list-style: none;
+  line-height: 50px;
+  text-align: center;
+}
+
+ul#menu li {
+  height: 100%;
+  display: inline-block;
+}
+
+ul#menu a {
+  height: 100%;
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+ul#menu li:hover a {
+  background-color: #302B27;
+}
+
+main::after {
+content: "";
+display: table;
+clear: both;
+}
+
+aside.left, section, aside.right-1, aside.right-2, aside.right-3, footer {
+  border-radius: 10px;
+}
+
+aside.left {
+  width: 20%;
+  background-color: white;
+  float: left;
+  margin-top: 20px;
+}
+
+#rss-icon {
+  color: white;
+  background-color: orange;
+  font-size: 25px;
+  padding: 3px;
+  border-radius: 3px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+aside.left h2 {
+  color: #504741;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+aside.left ul {
+  list-style: none;
+  margin: 10px;
+}
+
+aside.left li {
+  margin: 10px;
+}
+
+aside.left a {
+  text-decoration: none;
+  color: green;
+}
+
+aside.left ul li:hover a {
+  text-decoration: underline;
+}
+
+section {
+  width: 50%;
+  margin: 0 5%;
+  background-color: white;
+  float: left;
+  margin-top: 20px;
+}
+
+section h2 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px #9E8E77;
+  color: #504741;
+  padding: 20px;
+}
+
+section p {
+  padding: 20px;
+  line-height: 30px;
+}
+
+aside.right-1 {
+  width: 20%;
+  background-color: white;
+  float: left;
+  margin-top: 20px;
+}
+
+aside.right-2 {
+  width: 20%;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+}
+
+aside.right-3 {
+  width: 20%;
+  background-color: white;
+  float: right;
+  clear: right;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #504741;
+  padding-bottom: 20px;
+}
+
+[class^=right] {
+  padding: 20px;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: lightgrey;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4 {
+  color: grey;
+  font-style: italic;
+  border-bottom: 1px solid grey;
+}
+
+#facebook-icon, #instagram-icon, #github-icon {
+  color: grey;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  cursor: pointer;
+}
