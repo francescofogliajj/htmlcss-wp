@@ -69,7 +69,7 @@ display: table;
 clear: both;
 }
 
-aside.left, section, aside.right-1, aside.right-2, aside.right-3, footer {
+aside, section, footer {
   border-radius: 10px;
 }
 
@@ -83,8 +83,6 @@ aside.left {
 .fa-rss-square {
   color: orange;
   font-size: 25px;
-  padding: 3px;
-  border-radius: 3px;
   margin: 10px;
   display: inline-block;
   vertical-align: top;
@@ -141,6 +139,7 @@ aside.right-1 {
   background-color: white;
   float: left;
   margin-top: 20px;
+  padding: 20px;
 }
 
 aside.right-2 {
@@ -148,6 +147,7 @@ aside.right-2 {
   background-color: white;
   float: right;
   margin-top: 40px;
+  padding: 20px;
 }
 
 aside.right-3 {
@@ -156,15 +156,12 @@ aside.right-3 {
   float: right;
   clear: right;
   margin-top: 40px;
+  padding: 20px;
 }
 
 h3 {
   color: #504741;
   padding-bottom: 20px;
-}
-
-[class^=right] {
-  padding: 20px;
 }
 
 footer {
